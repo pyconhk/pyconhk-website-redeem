@@ -18,7 +18,7 @@ export const links: NavBarLink[] = [
 
 export default async function NavBarLinks() {
   return (
-    <div className='flex items-center h-full text-zinc-300'>
+    <div className='flex items-center h-full text-slate-500 dark:text-zinc-300'>
       <ul className='flex space-x-6 xl:space-x-7 font-semibold text-sm 2xl:text-base'>
         {links.map(link => (
           <React.Fragment key={`nav-${link.label}`}>

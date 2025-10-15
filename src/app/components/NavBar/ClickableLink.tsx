@@ -21,7 +21,7 @@ export default function ClickableLink({
   const baseStyles = 'transition-all duration-200 relative';
 
   // Separate active and hover styles
-  const linkStyles = isActive ? 'text-zinc-300 font-bold' : 'text-zinc-300/50';
+  const linkStyles = isActive ? 'text-slate-500 dark:text-zinc-300 font-bold' : 'text-slate-500/50 dark:text-zinc-300/50';
 
   // Combined styles
   const combinedStyles = `${baseStyles} ${linkStyles} ${className}`;

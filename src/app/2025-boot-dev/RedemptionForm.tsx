@@ -60,7 +60,7 @@ export default function RedemptionForm() {
 
   if (status === "success") {
     return (
-      <div className="mt-12 rounded-lg border border-green-500/30 bg-green-900/30 px-4 py-8 text-center backdrop-blur-sm">
+      <div className="mt-12 rounded-lg border border-green-500/30 bg-green-800/30 px-4 py-8 text-center backdrop-blur-sm">
         <FaCheckCircle className="mx-auto h-12 w-12 text-green-400" />
         <h3 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
           Success! Here is your code:

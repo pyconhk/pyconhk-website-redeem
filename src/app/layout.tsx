@@ -43,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en_US" className="light">
+    <html lang="en_US">
       <body className={`${montserrat.className}`}>
         <NavBar />
         {children}
