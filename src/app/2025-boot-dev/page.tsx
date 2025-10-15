@@ -10,10 +10,17 @@ export default function BootDevRedemptionPage() {
           </h1>
           <p className="mt-4 text-base sm:text-lg text-zinc-600 dark:text-zinc-400">
             Please enter your Order ID from your conference ticket and your
-            email address to claim your prize.
+            email address to claim your promotion code.
           </p>
           <p className="mt-2 text-sm sm:text-base text-zinc-600 dark:text-zinc-400">
-            You can redeem your subscription at any time before 15th November at <a href="https://boot.dev/redeem" className="text-blue-500 underline">https://boot.dev/redeem</a>.
+            You can redeem your subscription at any time before 15th November at{" "}
+            <a
+              href="https://boot.dev/redeem"
+              className="text-blue-500 underline"
+            >
+              https://boot.dev/redeem
+            </a>{" "}
+            with your promotion code.
           </p>
         </div>
 

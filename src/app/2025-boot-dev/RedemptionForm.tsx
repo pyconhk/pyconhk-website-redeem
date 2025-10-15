@@ -162,7 +162,7 @@ export default function RedemptionForm() {
                 Searching...
               </>
             ) : (
-              "Redeem Prize"
+              "Claim My Code"
             )}
           </button>
         </div>
